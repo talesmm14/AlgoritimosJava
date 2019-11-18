@@ -26,7 +26,7 @@ public class Professor {
 			System.out.println("Nome: " + professores[i].nome);
 			System.out.println("Idade: " + professores[i].idade);
 			System.out.println("CPF: " + professores[i].cpf);
-			System.out.println("Titulação: " + professores[i].cpf);
+			System.out.println("Titulação: " + professores[i].titulacao);
 			System.out.println("-- ");
 		}
 	}
