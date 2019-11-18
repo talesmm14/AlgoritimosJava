@@ -4,21 +4,21 @@ import java.util.Scanner;
 
 public class Questão {
 	public static void main(String[] args) {
-        Scanner leitor = new Scanner(System.in);
+        Scanner in = new Scanner(System.in);
         int vetorA[] = new int[5];
         int vetorB[] = new int[5];
         int vetorR[] = new int[5];
 
-        // INICIALIZAÇÃO DOS DOIS VETORES
-        System.out.println("DIGITE 10 NÚMEROS DO VETOR A:");
+        // Pegando vetores
+        System.out.println("Digite os valores do vetor A:");
         for (int i = 0; i < vetorR.length; i++) {
-            vetorA[i] = leitor.nextInt();
+            vetorA[i] = in.nextInt();
         }
-        System.out.println("DIGITE 10 NÚMEROS DO VETOR B:");
+        System.out.println("Digite os valores do vetor B:");
         for (int i = 0; i < vetorR.length; i++) {
-            vetorB[i] = leitor.nextInt();
+            vetorB[i] = in.nextInt();
         }
-        // VERIFICAÇÃO DOS NÚMEROS PRESENTEM EM B E NÃO EM A
+        // Verificação
         for (int i = 0, j = 0; i < vetorR.length; i++) {
             boolean diferente = true;
             for (int n = 0; j < vetorR.length; j++) {
